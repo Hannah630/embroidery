@@ -2,7 +2,7 @@
 .header-banner {
   background-image: url("../pic/banner.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center 30%;
   background-repeat: no-repeat;
   background-attachment: fixed; /* ✅ 開啟視差效果 */
   height: 80vh;
@@ -16,8 +16,8 @@
 @media (max-width: 768px) {
   .header-banner {
     background-image: url("../pic/banner-m.jpg");
-    height: 40vh;
-    background-position: center 40%;
+    height: 30vh;
+    background-position: 10% 48%;
     background-attachment: scroll;
   }
 }
